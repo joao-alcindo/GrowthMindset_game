@@ -1,0 +1,594 @@
+
+
+/*--------------------------------------------------------*/
+/*HOME PAGE*/
+
+:root{
+    font-size:62.5%;
+    background-color:	#93ABBF;
+
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+
+
+.div-error{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+
+}
+
+#error{
+    padding: 3rem;
+    text-align: center;
+    font-size: 8rem;
+    font-family: "Bebas Neue";
+    background-color: #191970;
+    color: white;
+
+}
+
+
+.start-div h1{
+    font-size: 5.4rem;
+    color:black;
+    margin-bottom: 3em;
+}
+
+p{
+    text-align: justify;
+}
+
+.start-div{
+    opacity: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.background{
+    width: 100vw;
+    background-image: url('img_home.png');
+    background-size:cover;
+    position: relative;
+    background-position: center;
+    height: 100vh;
+}
+
+.start-text{
+    opacity: 1;
+    position: absolute;
+    padding:2rem;
+}
+
+
+.start-text h1{
+    padding: 3rem;
+    font-size: 8rem;
+    font-family: "Bebas Neue";
+    background-color: #191970;
+    color: white;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.start-div button{
+    font-size: 4rem;
+    font-family: "Bebas Neue";
+    padding: 1rem 0;
+    width: 30rem;
+    height: 10rem;
+    text-align: center;
+    border: 0.1rem  white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #191970;
+}
+
+.start-div button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(138, 140, 141, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+
+}
+
+.start-div button[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+
+}
+
+
+
+/*--------------------------------------------------------*/
+/*Menu PAGE*/
+
+
+.menu-div{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.scenery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+
+
+.menu-div h2{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.menu-div p{
+    font-size: 1.7rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:.5rem;
+
+}
+
+
+.scenery_menu-div{
+    display: flex;
+    margin-bottom: 1rem;
+    height:66.4rem;
+    text-decoration: none;
+    background-color:#6A84A6;
+    border: .2rem solid #191970;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 1rem;
+}
+
+
+.scenery_menu-div img{
+width: 100%;
+border-radius: .1rem;
+}
+
+
+
+
+.scenery_menu-div h2{
+    color:#191970;
+}
+
+
+
+.text_scenery_menu p{
+    color:white;
+}
+
+
+
+
+.menu-div button{
+    font-size: 3rem;
+    padding: 1rem 0;
+    font-family: 'Bebas Neue';
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    background-color:#191970;
+    color:white;
+    text-decoration: none;
+    margin-top: 1rem;
+
+}
+
+.scenery_menu-div button{
+    height: 7rem;
+    color: #191970;
+    background-color: white;
+    margin-bottom: 1rem;
+
+
+}
+
+
+.text_scenery_menu{
+    text-align: justify;
+    height: 100%;
+}
+
+
+
+
+.menu-div button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(55, 56, 56, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+
+
+}
+
+
+
+
+/*--------------------------------------------------------*/
+/*GAME PAGE*/
+
+
+
+.scenery-div{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.scenery-div h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    color:#191970;
+
+
+}
+
+.question{
+    width: 80%;
+    border: 0.3rem solid #191970 ;
+    background-color:white;
+    
+    
+}
+
+
+
+.img-question{
+    width: 100%;
+    
+}
+
+
+.question-div{
+    
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+
+
+
+
+.utterance{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    
+}
+
+.utterance p{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.option_div{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #191970;
+    background-color: white;
+    
+}
+
+.option_div:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(46, 46, 46, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+
+}
+
+.letter-div{
+    background-color: #191970;
+    display: flex;
+    padding: 0.5rem 2.5rem;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.letter-div p{
+    color:white;
+    
+}
+.text-option-div{
+    padding: 1.5rem;
+    width: 100%;
+    
+}
+
+.text-option-div p{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selected .text-option-div{
+    background-color: #93ABBF;
+
+}
+
+
+
+
+.btn-question-div{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.btn-question-div button{
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-family: 'Bebas Neue';
+    width: 15rem;
+    height: 7rem;
+    text-align: center;
+    background-color:#191970;
+    color:white;
+    text-decoration: none;
+    margin-top: 1rem;
+
+}
+
+
+.btn-question-div button:hover{
+
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(47, 47, 48, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    
+}
+
+.result-div{
+    background-color: white;
+    border: 0.3rem solid #191970 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 80%;
+}
+
+
+
+.result-div h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    color:#191970;
+    display: flex;
+    align-items: center;
+}
+.result-div h2{
+    text-align: center;
+}
+
+
+.result-cond{
+    width: 90%;
+}
+
+
+.result-cond p{
+
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.result-cond ul{
+
+    margin-left:4rem;
+    margin-bottom: 1.5rem;
+
+}
+
+
+
+.result-cond li{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.result-cond span{
+    color:#191970;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.result-btn{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.result-div button{
+    
+    font-size: 3rem;
+    padding: 1rem 0;
+    font-family: 'Bebas Neue';
+    width: 20rem;
+    height: 7rem;
+    text-align: center;
+    background-color:#191970;
+    color:white;
+    text-decoration: none;
+    margin: 2rem;
+
+
+}
+
+
+.result-div button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 rgba(55, 56, 56, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    
+
+
+}
+
+
+@media(max-width: 500px){
+
+    .start-text h1{
+        padding: 3rem;
+        font-size: 4rem;
+        font-family: "Bebas Neue";
+        background-color: #191970;
+        color: white;
+    }
+
+    .start-div button{
+        font-size: 3rem;
+        font-family: "Bebas Neue";
+        padding: 1rem 0;
+        width: 15rem;
+        height: 7rem;
+        text-align: center;
+        border: 0.1rem  white;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: #191970;
+    }
+
+
+    
+    
+
+    .scenery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .scenery_menu-div{
+        margin-bottom: 1rem;
+        width: 95%;
+        margin: 1rem;
+        height:max-content;
+    }
+    
+
+    .question{
+        width: 100%;
+    }
+
+    .utterance p{
+        font-size:1.5rem;
+    }
+    
+    .text-option-div p{
+        font-size: 1.5rem;
+    }
+
+    .result-btn{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .result-div{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    
+    
+    .result-div h1{
+        font-size: 4rem;
+    }
+    .result-div h2{
+        text-align: center;
+    }
+    
+
+    
+.result-div button{
+    
+    font-size: 2rem;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    margin: 0.5rem;
+
+
+}
+
+}
+
+
+
+
+
+
+
+.hidden{
+    display: none;
+}
+
+
